@@ -1,0 +1,12 @@
+Body{
+
+	background: linear-gradient(blue, red);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+
+table {
+
+	margin: 0 auto;
+}

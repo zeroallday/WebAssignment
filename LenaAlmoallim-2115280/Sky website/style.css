@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+
+a{ 
+    text-decoration: none;
+}
+p{ 
+    margin: 0.75rem 0;
+
+}
+
+/* utility classes */
+
+.container {
+    padding: 0 2rem;
+}
+
+.text-center 
+{
+    text-align: center;
+}
+.bg-light {
+
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-dark 
+{
+    background-color: #333;
+    color: #fff;
+
+
+}
+.bg-primart {
+    background-color: #93cb52;
+    color: #fff;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+
+}
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #7ab436;
+}
+.btn-dark {
+    background-color: #333;
+
+}
+.list {
+    margin: 0.5rem 0 ;
+    list-style: none;
+
+}
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+/* navigation section */ 
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+
+}
+#navbar ul li a :hover {
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+/* header */ 
+
+#showcase {
+    background-image: url(flight.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* what */
+
+#what {
+    padding: 1.5rem 0;
+
+}
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+#what .items .item {
+    text-align: center;
+    padding: 1rem;
+    flex: 1;
+}
+#what .items .item {
+background-color: #93cb52;
+padding: 1rem;
+border-radius: 50%;
+margin-bottom: 1rem;
+}
+
+/* Who */ 
+
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-img {
+    background-image: url(flight.jpg);
+    background-position: center center;
+
+}
+#who .who-text {
+    padding: 2rem;
+}
+
+#clients {
+    padding: 1.5rem 0;
+
+}
+#clients .items {
+    display: flex;
+    padding: 1.5rem 0;
+}
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#footer {
+    padding: 1.5rem 0;
+}
